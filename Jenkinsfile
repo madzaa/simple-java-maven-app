@@ -4,7 +4,7 @@ pipeline{
             label 'test-app'
             defaultContainer 'maven'
             idleMinutes 3
-
+            yamlFile 'build-pod.yaml'
         }
     }
     stages {
